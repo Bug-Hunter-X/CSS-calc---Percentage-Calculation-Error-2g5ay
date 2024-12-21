@@ -1,0 +1,1 @@
+The `calc()` function requires at least one absolute value (px, em, rem etc.) as part of calculation when using percentages.  To fix the issue, convert one of the percentages to an absolute value based on the desired behavior.  Or better, avoid mixing percentages in this way and use a separate calculation for a more maintainable approach. 
